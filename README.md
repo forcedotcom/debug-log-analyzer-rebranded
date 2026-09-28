@@ -1,4 +1,4 @@
-# 🚀 Apex Log Analyzer powered by Certinia – Visualize Salesforce Debug Logs in VS Code
+# 🚀 Apex log analyzer powered by Certinia – Visualize Salesforce Debug Logs in VS Code
 
 [![Version](https://img.shields.io/visual-studio-marketplace/v/salesforce.lana)](https://marketplace.visualstudio.com/items?itemName=salesforce.lana)
 [![Download](https://img.shields.io/visual-studio-marketplace/d/salesforce.lana)](https://marketplace.visualstudio.com/items?itemName=salesforce.lana)
@@ -6,11 +6,11 @@
 [![Ratings](https://img.shields.io/visual-studio-marketplace/r/salesforce.lana)](https://marketplace.visualstudio.com/items?itemName=salesforce.lana)
 
 **Analyze Salesforce Apex Debug logs with blazing speed.**  
-Apex Log Analyzer powered by Certinia is a blazing-fast VS Code extension for Salesforce developers. Instantly visualize and debug Apex logs with interactive flame charts, dynamic call trees, and detailed SOQL/DML breakdowns. Identify performance bottlenecks, gain deep insight into complex transactions and optimize slow Apex methods faster than ever.
+Apex log analyzer powered by Certinia is a blazing-fast VS Code extension for Salesforce developers. Instantly visualize and debug Apex logs with interactive flame charts, dynamic call trees, and detailed SOQL/DML breakdowns. Identify performance bottlenecks, gain deep insight into complex transactions and optimize slow Apex methods faster than ever.
 
-![Apex Log Analyzer powered by Certinia Preview](https://raw.githubusercontent.com/certinia/debug-log-analyzer/main/lana/assets/1_20/preview.gif)
+![Apex log analyzer powered by Certinia Preview](https://raw.githubusercontent.com/certinia/debug-log-analyzer/main/lana/assets/1_20/preview.gif)
 
-[Installation](#%EF%B8%8F-installation 'Install Apex Log Analyzer powered by Certinia in VS Code') |
+[Installation](#%EF%B8%8F-installation 'Install Apex log analyzer powered by Certinia in VS Code') |
 [Debug Log Levels](#%EF%B8%8F-recommended-debug-log-levels 'Go to Recommended Debug Log Levels') |
 [Features](#-timeline 'Go to Features') |
 [Customization](#-customization 'Go to Customization') |
@@ -39,19 +39,19 @@ Apex Log Analyzer powered by Certinia is a blazing-fast VS Code extension for Sa
 
 ## 🛠️ Installation
 
-### 📦 Install Apex Log Analyzer powered by Certinia in VS Code
+### 📦 Install Apex log analyzer powered by Certinia in VS Code
 
-You can install Apex Log Analyzer powered by Certinia directly from Visual Studio Code, the command line, or the Visual Studio Code Marketplace.
+You can install Apex log analyzer powered by Certinia directly from Visual Studio Code, the command line, or the Visual Studio Code Marketplace.
 
 #### ✅ Option 1: Install via VS Code
 
 1. Open the **Extensions** sidebar (`Ctrl+Shift+X` or `Cmd+Shift+X`).
-2. Search for `Apex Log Analyzer powered by Certinia`.
+2. Search for `Apex log analyzer powered by Certinia`.
 3. Click **Install**.
 
 #### 🌐 Option 2: Install from Marketplace
 
-[➡️ Install Apex Log Analyzer powered by Certinia on Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=salesforce.lana)
+[➡️ Install Apex log analyzer powered by Certinia on Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=salesforce.lana)
 
 #### >\_ Option 3: Install via Command Line
 
@@ -271,7 +271,7 @@ Adjust event colors with custom timeline themes in `settings.json`:
 }
 ```
 
-Or go to: `Preferences > Extensions > Apex Log Analyzer powered by Certinia`.
+Or go to: `Preferences > Extensions > Apex log analyzer powered by Certinia`.
 
 ## 📚 Documentation
 
@@ -309,6 +309,6 @@ Copyright &copy; Certinia Inc. All rights reserved.
 
 ## 🙏 Acknowledgments
 
-This project uses [Tabulator Tables](http://tabulator.info/), an open-source table library, under the MIT license. Tabulator is a powerful and flexible table library that helped with the interactive table features in the Apex Log Analyzer powered by Certinia extension.
+This project uses [Tabulator Tables](http://tabulator.info/), an open-source table library, under the MIT license. Tabulator is a powerful and flexible table library that helped with the interactive table features in the Apex log analyzer powered by Certinia extension.
 
-Additionally, the timeline color themes in Apex Log Analyzer powered by Certinia draw inspiration from several open-source color palettes, editor themes, and UIs — including Salesforce UI, Chrome DevTools, and Firefox DevTools. We are grateful to the creators and maintainers of Catppuccin, Dracula, Nord, Solarized, Monokai Pro, Okabe–Ito, Material Design, and the broader theme communities whose work influenced the presets included in our timeline themes.
+Additionally, the timeline color themes in Apex log analyzer powered by Certinia draw inspiration from several open-source color palettes, editor themes, and UIs — including Salesforce UI, Chrome DevTools, and Firefox DevTools. We are grateful to the creators and maintainers of Catppuccin, Dracula, Nord, Solarized, Monokai Pro, Okabe–Ito, Material Design, and the broader theme communities whose work influenced the presets included in our timeline themes.

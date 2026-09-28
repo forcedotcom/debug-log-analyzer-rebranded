@@ -414,7 +414,7 @@ describe('SwitchTimelineTheme', () => {
       SwitchTimelineTheme.apply(mockContext as unknown as import('../../Context.js').Context);
 
       expect(mockContext.display.output).toHaveBeenCalledWith(
-        "Registered command 'Apex Log Analyzer powered by Certinia: Timeline Theme'",
+        "Registered command 'Apex log analyzer powered by Certinia: Timeline Theme'",
       );
     });
   });

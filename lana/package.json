@@ -1,8 +1,8 @@
 {
   "name": "lana",
-  "displayName": "Apex Log Analyzer powered by Certinia",
+  "displayName": "Apex log analyzer powered by Certinia",
   "version": "1.1.4",
-  "description": "Apex Log Analyzer powered by Certinia: Blazing-fast VS Code extension for Salesforce. Visualize and debug Apex logs with interactive flame charts, dynamic call trees, and detailed SOQL/DML breakdowns. Identify performance bottlenecks, gain deep transaction insights and optimize slow Apex.",
+  "description": "Apex log analyzer powered by Certinia: Blazing-fast VS Code extension for Salesforce. Visualize and debug Apex logs with interactive flame charts, dynamic call trees, and detailed SOQL/DML breakdowns. Identify performance bottlenecks, gain deep transaction insights and optimize slow Apex.",
   "keywords": [
     "analysis",
     "apex",

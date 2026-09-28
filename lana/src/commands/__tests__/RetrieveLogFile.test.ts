@@ -136,7 +136,7 @@ describe('RetrieveLogFile', () => {
       RetrieveLogFile.apply(mockContext as unknown as import('../../Context.js').Context);
 
       expect(mockContext.display.output).toHaveBeenCalledWith(
-        "Registered command 'Apex Log Analyzer powered by Certinia: Retrieve Log'",
+        "Registered command 'Apex log analyzer powered by Certinia: Retrieve Log'",
       );
     });
   });
