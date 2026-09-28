@@ -24,7 +24,7 @@ export class WhatsNewNotification {
     const whatsNew = "See What's New";
     window
       .showInformationMessage(
-        "Apex log analyzer powered by Certinia has been updated. See What's New.",
+        "Apex Log Analyzer powered by Certinia has been updated. See What's New.",
         whatsNew,
       )
       .then((selection) => {
