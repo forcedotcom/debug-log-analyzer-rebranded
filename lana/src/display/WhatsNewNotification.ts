@@ -23,7 +23,7 @@ export class WhatsNewNotification {
     const extensionId = extensionInfo.id;
     const whatsNew = "See What's New";
     window
-      .showInformationMessage("Apex Log Analyzer has been updated. See What's New.", whatsNew)
+      .showInformationMessage("Apex Log Analyzer powered by Certinia has been updated. See What's New.", whatsNew)
       .then((selection) => {
         if (selection === whatsNew) {
           commands.executeCommand('extension.open', extensionId, 'changelog');
