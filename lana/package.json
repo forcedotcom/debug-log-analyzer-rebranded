@@ -78,6 +78,11 @@
         "command": "lana.switchTimelineTheme",
         "title": "Log: Timeline Theme",
         "icon": "./salesforce-icon.png"
+      },
+      {
+        "command": "lana.showAnalyzerLicense",
+        "title": "Log: Show Apex Log Analyzer License",
+        "icon": "./salesforce-icon.png"
       }
     ],
     "grammars": [
@@ -101,6 +106,10 @@
       "commandPalette": [
         {
           "command": "lana.showLogAnalysis"
+        },
+        {
+          "command": "lana.showAnalyzerLicense",
+          "when": "isWeb && !sf:code_builder_enabled"
         }
       ],
       "editor/context": [
