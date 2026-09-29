@@ -41,7 +41,7 @@ describe('ShowAnalyzerLicense', () => {
 
     expect(context.context.subscriptions.length).toBe(1);
     expect(context.display.output).toHaveBeenCalledWith(
-      "Registered command 'Apex Log Analyzer powered by Certinia: Show Apex Log Analyzer License'",
+      "Registered command 'Apex Log Analyzer powered by Certinia: View Apex Log Analyzer License'",
     );
   });
 });

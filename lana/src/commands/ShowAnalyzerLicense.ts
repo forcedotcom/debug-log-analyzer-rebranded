@@ -11,14 +11,14 @@ const LICENSE_URL = 'https://github.com/certinia/debug-log-analyzer/blob/main/LI
 
 export class ShowAnalyzerLicense {
   static getCommand(context: Context): Command {
-    return new Command('showAnalyzerLicense', 'Log: Show Apex Log Analyzer License', () =>
+    return new Command('showAnalyzerLicense', 'Log: View Apex Log Analyzer License', () =>
       ShowAnalyzerLicense.safeCommand(context),
     );
   }
 
   static apply(context: Context): void {
     ShowAnalyzerLicense.getCommand(context).register(context);
-    context.display.output(`Registered command '${appName}: Show Apex Log Analyzer License'`);
+    context.display.output(`Registered command '${appName}: View Apex Log Analyzer License'`);
   }
 
   private static async safeCommand(context: Context): Promise<void> {

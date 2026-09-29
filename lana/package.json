@@ -81,7 +81,7 @@
       },
       {
         "command": "lana.showAnalyzerLicense",
-        "title": "Log: Show Apex Log Analyzer License",
+        "title": "Log: View Apex Log Analyzer License",
         "icon": "./salesforce-icon.png"
       }
     ],
