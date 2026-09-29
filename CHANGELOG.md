@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- 📄 **License**: **Log: View Apex Log Analyzer License** in the Web Console command palette opens the Certinia license on GitHub.
+
 - 🧠 **Heap analysis**: heap is no longer a single number. Every method and call path now carries three heap metrics, so you can tell a real leak from harmless allocate-then-free churn. ([#32])
   - **Net** – bytes retained (allocated minus freed); the lasting footprint. Can be negative where a path frees more than it allocates.
   - **Gross** – bytes allocated, ignoring frees; allocation churn and GC pressure.

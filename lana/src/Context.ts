@@ -6,6 +6,7 @@ import type { ExtensionContext } from 'vscode';
 import { LogEventCache } from './cache/LogEventCache.js';
 import { ShowAnalysisCodeLens } from './codelenses/ShowAnalysisCodeLens.js';
 import { RetrieveLogFile } from './commands/RetrieveLogFile.js';
+import { ShowAnalyzerLicense } from './commands/ShowAnalyzerLicense.js';
 import { ShowInLogAnalysis } from './commands/ShowInLogAnalysis.js';
 import { ShowLogAnalysis } from './commands/ShowLogAnalysis.js';
 import { SwitchTimelineTheme } from './commands/SwitchTimelineTheme.js';
@@ -33,6 +34,7 @@ export class Context {
     ShowLogAnalysis.apply(this);
     ShowInLogAnalysis.apply(this);
     SwitchTimelineTheme.apply(this);
+    ShowAnalyzerLicense.apply(this);
     ShowAnalysisCodeLens.apply(this);
     LogTimingDecoration.apply(this);
     RawLogLineDecoration.apply(this);
